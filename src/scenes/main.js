@@ -433,7 +433,7 @@ module.exports = {
         ox.context.font="40px Courier";
         ox.context.fillStyle="white";
 
-        console.log(ox.context.measureText(dietxt).width);
+        //console.log(ox.context.measureText(dietxt).width);
 
         this.text = ox.spawn('text', {
             x: ox.canvas.width * (1/2) - ox.context.measureText(dietxt).width * (1/2),
